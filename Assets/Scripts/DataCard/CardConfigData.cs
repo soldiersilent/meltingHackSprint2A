@@ -26,6 +26,8 @@ namespace CARD_DATA
 
         public int attackPoints;
 
+        public Sprite cardSprite;
+
         // public SummonConditions[] summonConditions;
         // public Spells[] spells;
         // public DemonEffects[] demonEffects;
@@ -51,6 +53,7 @@ namespace CARD_DATA
             result.cardType = cardType;
             result.sinType = sinType;
             result.description = description;
+            result.cardSprite = cardSprite;
 
             result.hitPoints = hitPoints;
             result.defencePoints = defencePoints;
@@ -78,6 +81,8 @@ namespace CARD_DATA
                 result.cardType = "";//DataCard.CardType.Text;
                 result.sinType = ""; // DataCard.SinType.Text;
                 result.description = "";
+
+                result.cardSprite = null;
 
                 result.hitPoints = 0;
                 result.defencePoints = 0;

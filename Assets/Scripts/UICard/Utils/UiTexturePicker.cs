@@ -16,8 +16,10 @@ namespace Tools.UI.Card
         {
             MyRenderer = GetComponent<SpriteRenderer>();
 
+            // Pick card character sprite
+
             if (Sprites.Length > 0)
-                MyRenderer.sprite = Sprites.ToList().RandomItem();
+                MyRenderer.sprite = Sprites.ToList()[0];//.RandomItem();
         }
     }
 }
