@@ -12,4 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85d5df34cb6e24ce2b1a38182b9e1d54, type: 3}
   m_Name: CardConfigurationAsset
   m_EditorClassIdentifier: 
-  cards: []
+  cards:
+  - name: Asmodeus
+    alias: King Asmodeus
+    cardType: Demon
+    sinType: Lust
+    description: "Asmodeus, the Demon King of Lust, commands a fearsome presence
+      on the battlefield. With three heads\u2014a man spitting fire, a sheep, and
+      a bull\u2014each reflecting his multifaceted malice, he rides a lion with dragon
+      wings, embodying wrath and vengeance. Asmodeus disrupts alliances and weakens
+      foes with his seductive influence, making him a formidable force in any deck.
+      With 72 legions under his command, he incites chaos, manipulates desire, and
+      thrives in the heart of conflict. Deploy Asmodeus to harness the ultimate power
+      of infernal temptation and demonic might."
+    hitPoints: 20
+    defencePoints: 7
+    attackPoints: 10
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: 
+    alias: 
+    cardType: 
+    sinType: 
+    description: 
+    hitPoints: 0
+    defencePoints: 0
+    attackPoints: 0
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
