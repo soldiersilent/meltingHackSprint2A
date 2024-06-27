@@ -115,7 +115,6 @@ namespace Tools.UI.Card
                 throw new ArgumentNullException("Null is not a valid argument.");
 
             SelectedCard = null;
-            RemoveCard(card);
             OnCardPlaced.Invoke(card);
             EnableCards();
             NotifyPileChange();
