@@ -28,7 +28,6 @@ MonoBehaviour:
     hitPoints: 20
     defencePoints: 7
     attackPoints: 10
-    cardSprite: {fileID: 21300000, guid: 20455dcba2870e24eb931aa4570255c7, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
   - name: 
@@ -39,28 +38,5 @@ MonoBehaviour:
     hitPoints: 0
     defencePoints: 0
     attackPoints: 0
-    cardSprite: {fileID: 0}
-    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
-    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: 
-    alias: 
-    cardType: 
-    sinType: 
-    description: 
-    hitPoints: 0
-    defencePoints: 0
-    attackPoints: 0
-    cardSprite: {fileID: 0}
-    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
-    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: 
-    alias: 
-    cardType: 
-    sinType: 
-    description: 
-    hitPoints: 0
-    defencePoints: 0
-    attackPoints: 0
-    cardSprite: {fileID: 0}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
