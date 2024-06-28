@@ -1,8 +1,6 @@
 ﻿using System.Linq;
 using Extensions;
 using UnityEngine;
-using System;
-using CARD_DATA;
 
 namespace Tools.UI.Card
 {
@@ -14,8 +12,6 @@ namespace Tools.UI.Card
         [SerializeField] private Sprite[] Sprites;
         [SerializeField] private SpriteRenderer MyRenderer { get; set; }
 
-        private CardConfigData[] allCards => DataCardManager.instance.config.cards; // Should this be a SerializedField?
-
         private void Awake()
         {
             MyRenderer = GetComponent<SpriteRenderer>();
@@ -23,7 +19,7 @@ namespace Tools.UI.Card
             // Pick card character sprite
 
             if (Sprites.Length > 0)
-                MyRenderer.sprite = allCards.Where(c => c.name == "BB").ToArray()[0].cardSprite;// Just testing -> need to use allCards / Deck in the function that calls this one
+                MyRenderer.sprite = Sprites.ToList()[0];//.RandomItem();
         }
     }
 }

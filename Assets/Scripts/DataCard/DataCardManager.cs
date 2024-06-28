@@ -18,7 +18,7 @@ namespace CARD_DATA
         public CardSystemConfiguration systemConfig => _config;
 
         // DEBUG - NEED TO TURN ABOVE OR BELOW CONFIG INTO AN INSTANCE OR GENERALLY SIMPLIFY
-        public CardScriptableObjectConfig config => systemConfig.cardConfigurationAsset;
+        private CardScriptableObjectConfig config => systemConfig.cardConfigurationAsset;
 
         public string cardPrefabPathFormat => $"{cardRootPathFormat}/{cardPrefabNameFormat}";
 
