@@ -31,36 +31,36 @@ MonoBehaviour:
     cardSprite: {fileID: 21300000, guid: 20455dcba2870e24eb931aa4570255c7, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: 
-    alias: 
-    cardType: 
-    sinType: 
-    description: 
-    hitPoints: 0
-    defencePoints: 0
-    attackPoints: 0
-    cardSprite: {fileID: 0}
+  - name: BB
+    alias: b
+    cardType: b
+    sinType: b
+    description: b
+    hitPoints: 3
+    defencePoints: 3
+    attackPoints: 3
+    cardSprite: {fileID: 21300000, guid: b3497253e58513a469fb1bfa56829150, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: 
-    alias: 
-    cardType: 
-    sinType: 
-    description: 
-    hitPoints: 0
-    defencePoints: 0
-    attackPoints: 0
-    cardSprite: {fileID: 0}
+  - name: CC
+    alias: c
+    cardType: c
+    sinType: c
+    description: c
+    hitPoints: 4
+    defencePoints: 4
+    attackPoints: 4
+    cardSprite: {fileID: 21300000, guid: 0cf2a985821d0304b862ef9dd7317b7f, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: 
-    alias: 
-    cardType: 
-    sinType: 
-    description: 
-    hitPoints: 0
-    defencePoints: 0
-    attackPoints: 0
-    cardSprite: {fileID: 0}
+  - name: DD
+    alias: d
+    cardType: d
+    sinType: d
+    description: d
+    hitPoints: 5
+    defencePoints: 5
+    attackPoints: 5
+    cardSprite: {fileID: 21300000, guid: 97eed4db298436a45971e9b17442b6e5, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
