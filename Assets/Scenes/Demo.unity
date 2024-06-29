@@ -244,6 +244,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23375782}
   m_CullTransparentMesh: 1
+--- !u!1 &30657289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2144038177951162930, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
+  m_PrefabInstance: {fileID: 2144038177204827270}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &34782666
 GameObject:
   m_ObjectHideFlags: 0
@@ -6029,6 +6034,18 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2144038177951162928, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
   m_PrefabInstance: {fileID: 2144038177204827270}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1009333248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30657289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c560314340347b785aa92faa414a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1036237133
 GameObject:
   m_ObjectHideFlags: 0
@@ -13450,7 +13467,8 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2144038177951162929, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 2144038177838837771, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
@@ -13466,6 +13484,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2144038177246481709, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 2144038177951162930, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1009333248}
     - targetCorrespondingSourceObject: {fileID: 2144038176727728455, guid: eb28f796948c44448b637d3b83f3204e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
