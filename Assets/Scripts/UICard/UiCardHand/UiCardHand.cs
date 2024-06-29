@@ -108,6 +108,7 @@ namespace Tools.UI.Card
             SelectedCard = null;
             AddCardToField(card);
             OnCardPlaced?.Invoke(card);
+            Unselect();
             EnableCards();
             NotifyPileChange();
 
