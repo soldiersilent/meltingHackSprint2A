@@ -19,10 +19,16 @@ namespace Tools.UI.Card
         ///      Card currently selected by the player.
         /// </summary>
         public IUiCard SelectedCard { get; private set; }
-        
+
+
         private event Action<IUiCard> OnCardSelected = card => { };
 
         private event Action<IUiCard> OnCardPlayed = card => { };
+
+        /// <summary>
+        ///  musashi edited code - event when card is placed
+        /// </summary>
+        private event Action<IUiCard> OnCardPlaced = card => { };
 
         /// <summary>
         ///     Event raised when a card is played.
@@ -30,16 +36,17 @@ namespace Tools.UI.Card
         Action<IUiCard> IUiCardHand.OnCardPlayed { get => OnCardPlayed; set => OnCardPlayed = value; }
 
         /// <summary>
+        /// musashi-code event raised when a card is placed
+        /// </summary>
+        Action<IUiCard> IUiCardHand.OnCardPlaced {get => OnCardPlaced; set => OnCardPlaced = value;}
+
+        /// <summary>
         ///     Event raised when a card is selected.
         /// </summary>
         Action<IUiCard> IUiCardHand.OnCardSelected{ get => OnCardSelected; set => OnCardSelected = value; }
-
         #endregion
-
         //--------------------------------------------------------------------------------------------------------------
-
         #region Operations
-
         /// <summary>
         ///     Select the card in the parameter.
         /// </summary>
@@ -47,12 +54,10 @@ namespace Tools.UI.Card
         public void SelectCard(IUiCard card)
         {
             SelectedCard = card ?? throw new ArgumentNullException("Null is not a valid argument.");
-
             //disable all cards
             DisableCards();
             NotifyCardSelected();
         }
-
         /// <summary>
         ///     Play the card which is currently selected. Nothing happens if current is null.
         /// </summary>
@@ -61,10 +66,8 @@ namespace Tools.UI.Card
         {
             if (SelectedCard == null)
                 return;
-
             PlayCard(SelectedCard);
         }
-
         /// <summary>
         ///     Play the card in the parameter.
         /// </summary>
@@ -73,12 +76,42 @@ namespace Tools.UI.Card
         {
             if (card == null)
                 throw new ArgumentNullException("Null is not a valid argument.");
-
             SelectedCard = null;
             RemoveCard(card);
             OnCardPlayed?.Invoke(card);
             EnableCards();
             NotifyPileChange();
+        }
+        /// <summary>
+        /// musashi - Play the card that is currently selected. Nothing happens if current is null.
+        /// </summary>
+        /// <param name="card"></param>
+
+        public void PlaceSelected(){
+            if (SelectedCard==null){
+                return;
+            }
+            PlaceCard(SelectedCard);
+
+        }
+
+        /// <summary>
+        /// musashi- Place the Card in the parameter
+        /// </summary>
+        /// <param name="card"></param>
+        /// <exception cref="ArgumentNullException"></exception>
+
+        public void PlaceCard(IUiCard card){
+            if (card == null)
+                throw new ArgumentNullException("Null is not a valid argument.");
+
+            SelectedCard = null;
+            OnCardPlaced.Invoke(card);
+            EnableCards();
+            NotifyPileChange();
+
+
+            //TO-DO edit the variables that need to be changed when the card is placed down
         }
 
         /// <summary>
