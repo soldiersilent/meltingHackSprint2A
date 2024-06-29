@@ -7,5 +7,6 @@ namespace Tools.UI.Card
         Action<IUiCard[]> OnPileChanged { get; set; }
         void AddCard(IUiCard uiCard);
         void RemoveCard(IUiCard uiCard);
+        void AddCardToField(IUiCard uiCard);
     }
 }

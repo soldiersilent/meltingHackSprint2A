@@ -20,6 +20,7 @@ namespace Tools.UI.Card
         /// </summary>
         public List<IUiCard> Cards { get; private set; }
 
+        public List<IUiCard> InPlayCards {get; private set;}
         /// <summary>
         ///     Event raised when add or remove a card.
         /// </summary>
@@ -69,6 +70,23 @@ namespace Tools.UI.Card
         }
 
         /// <summary>
+        /// Places a card on the battlefield
+        /// </summary>
+        /// <param name="card"></param>
+
+        public virtual void AddCardToField(IUiCard card){
+            
+            if (card == null)
+                throw new ArgumentNullException("Null is not a valid argument.");
+
+            Cards.Remove(card);
+            InPlayCards.Add(card);
+
+            NotifyPileChange();
+            
+        }
+
+        /// <summary>
         ///     Clear all the pile.
         /// </summary>
         [Button]
@@ -100,6 +118,7 @@ namespace Tools.UI.Card
         {
             //initialize register
             Cards = new List<IUiCard>();
+            InPlayCards = new List<IUiCard>();
 
             Clear();
         }
