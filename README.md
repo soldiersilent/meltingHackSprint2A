@@ -1,5 +1,3 @@
-Sure! Here’s the updated README document:
-
 ```markdown
 # Cards Goetia - A Deck-Building Game About Summoning Demons
 
@@ -92,5 +90,3 @@ Embark on a journey to master the dark arts, summon powerful demons, and build t
 
 **Ready to become a sorcerer? Start your adventure now!**
 ```
-
-Feel free to adjust or expand upon any sections as needed to fit your vision for the game!
