@@ -17,7 +17,7 @@ public class DeckManagerNavigationBar : MonoBehaviour
     [SerializeField] private GameObject buttonPrefab;
     [SerializeField] private GameObject previousButton;
     [SerializeField] private GameObject nextButton;
-    private const int MAX_BUTTONS = 5;
+    private const int MAX_BUTTONS = 6;
     public int selectedPage {get ; private set;} = 1;
 
     private int maxPages = 0;

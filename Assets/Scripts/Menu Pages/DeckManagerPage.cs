@@ -54,7 +54,7 @@ public class DeckManagerPage : MenuPage
             
             if (cardNum < MAX_CARDS && cardNum <= deckCards.Length)
             {
-                CardConfigData card = deckCards[i];
+                CardConfigData card = deckCards[startingCard + i];
                 slot.root.SetActive(true);
     
                 slot.cardNumber = cardNum;

@@ -28,39 +28,140 @@ MonoBehaviour:
     hitPoints: 20
     defencePoints: 7
     attackPoints: 10
-    cardSprite: {fileID: 21300000, guid: 20455dcba2870e24eb931aa4570255c7, type: 3}
+    cardSprite: {fileID: 21300000, guid: bbd87eccf73134882b3d16ec627d90e6, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: BB
-    alias: b
-    cardType: b
-    sinType: b
-    description: b
+  - name: Allocer
+    alias: Allocer
+    cardType: Demon
+    sinType: Wrath
+    description: With the head of a lion and the body of a man, Allocer wears regal
+      armor and wields a staff. He commands armies with his fearsome and majestic
+      presence.
     hitPoints: 3
     defencePoints: 3
     attackPoints: 3
-    cardSprite: {fileID: 21300000, guid: b3497253e58513a469fb1bfa56829150, type: 3}
+    cardSprite: {fileID: 21300000, guid: 181b14374f4a241038219f11e685a0d5, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: CC
-    alias: c
-    cardType: c
-    sinType: c
-    description: c
+  - name: Berith
+    alias: Berith
+    cardType: Demon
+    sinType: Gluttony
+    description: Riding a powerful red horse, Berith wears ornate armor and a golden
+      crown. He holds a scepter that emanates dark energy, revealing secrets and
+      granting power.
     hitPoints: 4
     defencePoints: 4
     attackPoints: 4
-    cardSprite: {fileID: 21300000, guid: 0cf2a985821d0304b862ef9dd7317b7f, type: 3}
+    cardSprite: {fileID: 21300000, guid: 0e3df57b65c194c7fa666b280ff2cb91, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
-  - name: DD
-    alias: d
-    cardType: d
-    sinType: d
-    description: d
+  - name: Crocell
+    alias: Crocell
+    cardType: Demon
+    sinType: Sloth
+    description: An enigmatic figure with long, flowing hair and glowing eyes. Crocell
+      commands water and air, surrounded by an aura of mystical power.
     hitPoints: 5
     defencePoints: 5
     attackPoints: 5
-    cardSprite: {fileID: 21300000, guid: 97eed4db298436a45971e9b17442b6e5, type: 3}
+    cardSprite: {fileID: 21300000, guid: 2895aa2dbc27b4322acdbf4e2ba70240, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Focalor
+    alias: Focalor
+    cardType: Demon
+    sinType: Wrath
+    description: A fierce demon with large, dark wings and a trident. Focalor controls
+      storms and the seas, bringing terror with his powerful presence.
+    hitPoints: 6
+    defencePoints: 6
+    attackPoints: 6
+    cardSprite: {fileID: 21300000, guid: ee544dc120e804d6c919fd9c72fe6323, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Gremory
+    alias: Gremory
+    cardType: Demon
+    sinType: Greed
+    description: A beautiful and noble demoness riding a majestic camel. Gremory
+      reveals secrets and treasures, her presence both regal and enchanting.
+    hitPoints: 5
+    defencePoints: 5
+    attackPoints: 5
+    cardSprite: {fileID: 21300000, guid: 70331cef1dadd4128a90ff1be6430136, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Murmur
+    alias: Murmur
+    cardType: Demon
+    sinType: Gluttony
+    description: A regal figure with the head of a griffin and the body of a man.
+      Murmur controls spirits and the dead, wielding a staff of mystical power.
+    hitPoints: 7
+    defencePoints: 7
+    attackPoints: 7
+    cardSprite: {fileID: 21300000, guid: db42b25e8d99f45188d1f590bde20184, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Vepar
+    alias: Vepar
+    cardType: Demon
+    sinType: Sloth
+    description: A fearsome demoness with a serpent's body and a woman's head. Vepar
+      controls water and storms, her presence commanding and eerie.
+    hitPoints: 8
+    defencePoints: 8
+    attackPoints: 8
+    cardSprite: {fileID: 21300000, guid: 0a6a5d81ab1764076a0c75ff0fb021ef, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Vuar
+    alias: Vuar
+    cardType: Demon
+    sinType: Sloth
+    description: A dark figure with bat-like wings and a monstrous face. Vuar wields
+      a menacing sword, his presence bringing fear and darkness.
+    hitPoints: 8
+    defencePoints: 8
+    attackPoints: 8
+    cardSprite: {fileID: 21300000, guid: 63d83839df20743ce9956e31fa527d53, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Bune
+    alias: Bune
+    cardType: Demon
+    sinType: Lust
+    description: A majestic demon with the head of a dragon and the body of a man.
+      Bune commands the dead and brings wisdom, riding on powerful wings.
+    hitPoints: 8
+    defencePoints: 9
+    attackPoints: 7
+    cardSprite: {fileID: 21300000, guid: b14535629f2ce476ea8554f0a0e534da, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Aym
+    alias: Aym
+    cardType: Demon
+    sinType: Wrath
+    description: A fierce demon with a serpent's head and a human body. Aym wields
+      a flaming sword and controls fire with a commanding presence.
+    hitPoints: 8
+    defencePoints: 8
+    attackPoints: 8
+    cardSprite: {fileID: 21300000, guid: e325c40fac5fd470088dc11f37245ace, type: 3}
+    nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
+    descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
+  - name: Bathin
+    alias: Bathin
+    cardType: Demon
+    sinType: Lust
+    description: A mystical figure with a human upper body and a serpent's tail.
+      Bathin transports across vast distances, holding a staff with mystical symbols
+    hitPoints: 10
+    defencePoints: 9
+    attackPoints: 4
+    cardSprite: {fileID: 21300000, guid: 117606d89706c41ebbe40e0ff25cf798, type: 3}
     nameColor: {r: 0.9056604, g: 0.046991818, b: 0.046991818, a: 0}
     descriptionColor: {r: 0.103773594, g: 0.01027946, b: 0.01027946, a: 0}
